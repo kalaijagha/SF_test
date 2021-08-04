@@ -44,7 +44,7 @@ pipeline {
                 sh("set +x && echo 'DEPLOYBEGIN' && echo '******Deploying from release/${env} Branch to ${app_name} ${env} Environment******'")
                 sh("cat ${WORKSPACE}/committed_files.txt")
 				
-				// Create directory if doesn't exists, try catch to ignore errors //
+				// Create directory if doesn't exists, try catch to ignore errors everywhere //
                     try {
                         sh "set +x && mkdir ${WORKSPACE}/logs 2>&1 >/dev/null"
                      } catch (Exception e) {
