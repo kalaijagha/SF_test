@@ -8,7 +8,7 @@ def code_repo_name='https://github.com/kalaijagha/SF_test.git' // SSH Repository
 def admin_repo='https://github.com/kalaijagha/SF_Admin_testing21July2021.git' //Admin Ansible repo here //
 
 def jenkins_host="http://ec2-18-218-55-90.us-east-2.compute.amazonaws.com:8080/" 
-def git_creds="Kalai_jen"// GitHub credentials- Change ID as per Jenkins server https://jenkins_url/credentials/ //
+def git_creds="saraja_git_creds"// GitHub credentials- Change ID as per Jenkins server https://jenkins_url/credentials/ //
 
 def GIT_COMMIT // NO ACTION REQUIRED : For Git Commit ID assignment //
 def LOG_READ // NO ACTION REQUIRED : For console log assignment //
